@@ -50,6 +50,8 @@ else:
 #zadanie 3
 
 #zadanie 4
+import math
+print(math.pow(math.log(5 + math.pow(math.sin(8), 2)), 1/6))
 
 #zadanie 5
 imie = "KAROLINA"
@@ -74,3 +76,6 @@ zs = "pomidor"
 zf = 3.14
 z16 = hex(26)
 print("%(zm1)s, %(zm2)f, %(zm3)s" %{"zm1":zs, "zm2":zf, "zm3":z16})
+
+liczba_szesnastkowa = 0x1f
+print('{0:x}'.format(liczba_szesnastkowa))
