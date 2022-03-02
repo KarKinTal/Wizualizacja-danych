@@ -51,6 +51,12 @@ else:
 
 #zadanie 4
 import math
+e=2.71
+print(e ** 10)
+x = 3.55
+y = 4.00
+print(abs(x))
+print(abs(y))
 print(math.pow(math.log(5 + math.pow(math.sin(8), 2)), 1/6))
 
 #zadanie 5
